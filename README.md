@@ -38,3 +38,6 @@ Este es el proyecto backend de BlogApp, desarrollado en .NET Core.
 
 Para ejecutar las pruebas, utiliza el siguiente comando:
 dotnet test
+
+NOTA:
+El proyecto backend funciona con Swagger, sin embargo, no se puede utilizar debido a la restricción del API Key. Si se desea probar, será necesario comentar la línea 111 del archivo Program.cs. Luego utilizar el endpoint Auth/login y copiar el token generado en la ventana que se abre al hacer click en la esquina superior derecha que dice 'Authorize'.
